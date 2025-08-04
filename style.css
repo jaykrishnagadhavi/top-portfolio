@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --basic-font: "Roboto", sans-serif;
+    --dark-background: #1f2937;
+    --hero-font-size: 48px;
+    --light-text: #f9faf8;
+    --button-font-color: #3882f6;
+    --dark-text: #1f2937;
+}
+
+.container-one {
+    background-color: var(--dark-background);
+    height: 50vh;
+    color: var(--light-text);
+}
+
+.header {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
