@@ -46,6 +46,7 @@
 
 .header-container {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-text {
@@ -62,3 +63,20 @@
 button {
     align-self: flex-start;
 }
+
+.header-image {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.header-button {
+    background-color: var(--button-font-color);
+    color: var(--light-text);
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 0px;
+} 
