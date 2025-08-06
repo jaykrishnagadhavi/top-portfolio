@@ -80,3 +80,87 @@ button.header-button {
     border-radius: 5px;
     border: 0px;
 } 
+
+.random-information {
+    margin: 0 auto;
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.card-box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    gap: 10px;
+}
+
+
+.container-three {
+    background-color: #e5e7eb;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.quote {
+    color: var(--dark-text);
+    font-size: 36px;
+    font-style: italic;
+    width: 70%;
+    text-align: center;
+}
+
+
+.container-four {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action {
+    height: 10vh;
+    background-color: #3882f6;
+    width: 60%;
+    height: 15vh;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+}
+
+.cta-text {
+    line-height: 1.2;
+}
+
+.cta-button button {
+    background-color: transparent;
+    color: #f9faf8;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid #f9faf8;
+}
